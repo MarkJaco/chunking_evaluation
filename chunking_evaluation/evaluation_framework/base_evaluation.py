@@ -125,7 +125,7 @@ class BaseEvaluation:
             if self.corpora_id_paths is not None:
                 corpus_path = self.corpora_id_paths[corpus_id]
 
-            with open(corpus_path, 'r') as file:
+            with open(corpus_path, 'r', encoding="utf-8") as file:
                 corpus = file.read()
 
             current_documents = splitter.split_text(corpus)

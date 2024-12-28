@@ -17,7 +17,7 @@ You can immediately test the package via [Google Colab](https://colab.research.g
 You can install the package directly from GitHub:
 
 ```bash
-pip install git+https://github.com/brandonstarxel/chunking_evaluation.git
+pip install git+https://github.com/MarkJaco/chunking_evaluation.git
 ```
 
 
